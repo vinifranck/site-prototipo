@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Protótipo</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./imagens/telefone.png" />
+        </div>
+        <div id="ident">
+            <h1>Celulares</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Quem somos?</li>
+                <li>Links</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <div id="icon-menu"><img src="./imagens/menu.png" /></a>
+        </div>
+    </header>
+    <main>
+            <div class="row">
+                <div class="column">
+                  <img src=".\imagens\7.jpg" style="width:100%"  >
+                </div>
+                <div class="column">
+                  <img src=".\imagens\8.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src=".\imagens\11.jpg" style="width:100%">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                  <img src=".\imagens\12.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src=".\imagens\note.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src=".\imagens\ultra.jpg" style="width:100%">
+                </div>
+            </div>
+            <div class="linha">
+                <div class="column">
+                  <img src=".\imagens\x.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src=".\imagens\xs.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src=".\imagens\7p.png" style="width:100%">
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p>Vinícius Franck Ferreira INFO62A</p>
+    </footer>
+</body>
+<script>
+    let nav=document.querySelector("nav");
+    let icon=document.querySelector("#icon-menu");
+    
+    nav.style.display="none";
+
+    icon.onclick=function(){
+        if(nav.style.display=="none")
+            nav.style.display="block"
+        else
+            nav.style.display="none"
+
+    }
+</script>
+</html>
